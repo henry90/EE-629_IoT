@@ -1,7 +1,7 @@
 # EE-629_IoT
 Weekly Reports<br/>
 [2020-10-07] LED Projects:<br>
-1) Turn on and off the Red LED.<br>
+① Blinking Red LED.<br>
 Hardware and electronic components:<br>
 • Raspberry Pi 3B<br>
 • Breadboard<br>
@@ -9,9 +9,10 @@ Hardware and electronic components:<br>
 • 220Ω Resister<br>
 • Red LED<br>
 • Jump Wires (M-M)<br>
-![](Blinking_Red_LED.gif)
 <br>
-2) Display numbers and letters on LED Matrix display.<br>
+![](Blinking_Red_LED.gif)<br>
+<br>
+② Display numbers and letters on LED Matrix display.<br>
 Hardware and electronic components:<br>
 • Raspberry Pi 3B<br>
 • Breadboard<br>
@@ -20,6 +21,7 @@ Hardware and electronic components:<br>
 • 220Ω Resisters<br>
 • 74HC595 DIP IC<br>
 • Jump Wires (M-M)<br>
+<br>
 ![](LED_Matrix.gif)<br>
 :<br/>
 [2020-09-29] Purchased starter kit for Raspberry Pi including breadboard and all sort of electronic components. Reconfigured the Google Cloud due to billing issues.<br/>
