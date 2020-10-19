@@ -41,4 +41,4 @@ Hardware and electronic components:<br>
 :<br/>
 [2020-09-15] Reviwed the lecture and followed the instruction to configure the system settings. Modified the Digital Clock Setting: %a  %h %d  %I:%M %p. For example it will display: Tue Sep 15 10:00 AM. Connect Mac to the Raspberry Pi using Google Chrome extension: Secure Shell https://chrome.google.com/webstore/detail/secure-shell/iodihamcpbpeioajjeobimgagajmlibd. Get the crdiential from Google Cloud Speech APIs. https://console.cloud.google.com/.<br/>
 :<br/>
-[2020-09-08] Installed lastest release of Raspbian operating system on Raspberry Pi 3B. Assembled Raspberry Pi 3B with the Google AIY: Voice Kit https://aiyprojects.withgoogle.com/voice/.<br/>
+[2020-09-08] Used Etcher https://www.balena.io/etcher/ to flash the Raspbian operating system onto the MicroSD card. Assembled Raspberry Pi 3B with the Google AIY: Voice Kit https://aiyprojects.withgoogle.com/voice/.<br/>
