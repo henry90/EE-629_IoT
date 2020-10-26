@@ -4,7 +4,7 @@ Weekly Reports<br/>
 • Signed up an Particle account<br>
 • Installed Particle-Agent on Raspberry Pi and logged into the Particle account<br>
 • Added Raspberry Pi device in the Particle account<br>
-• Original link in the lecture slides does not work. Found the new link: https://docs.particle.io/tutorials/developer-tools/tinker/photon/<br>
+• Original link of the Particle Mobile App in the lecture slides does not work. Found new supporting document: https://docs.particle.io/tutorials/developer-tools/tinker/photon/<br>
 <br>
 • Installed Particle iOS app and connected to Raspberry Pi<br>
 • Installed node.js and npm on Raspberry Pi<br>
