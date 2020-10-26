@@ -1,5 +1,39 @@
 # EE-629_IoT
 Weekly Reports<br/>
+[2020-10-19] 
+• Signed up an Particle account<br>
+• Installed Particle-Agent on Raspberry Pi and logged into the Particle account<br>
+• Added Raspberry Pi device in the Particle account<br>
+• Original link in the lecture slides does not work. Found the new link: https://docs.particle.io/tutorials/developer-tools/tinker/photon/<br>
+<br>
+• Installed Particle iOS app and connected to Raspberry Pi<br>
+• Installed node.js and npm on Raspberry Pi<br>
+Step1: Update Pi<br>
+sudo apt-get update<br>
+Step 2: Identify Architecture Version of Raspberry Pi 3 /3B+: ARMv7<br>
+Step 3: Copy the ARMv7 download link at NodeJS downloads page<br>
+Step 4: Go to terminal to download NodeJS Binaries<br>v
+Wget https://nodejs.org/dist/v12.19.0/node-v12.19.0-linux-armv7l.tar.xz <br>
+Step 5: Extract the downloaded file<br>
+tar -xf node-v12.19.0-linux-armv7l.tar.xz<br>
+Step 6: Copy the files to a directory in PATH<br>
+cd node-v12.19.0-linux-armv7l<br>
+sudo cp -R * /usr/local/<br>
+Step: 6: Check if installation was successful<br>
+pi@raspberrypi:~ $ node -v<br>
+v12.19.0<br>
+pi@raspberrypi:~ $ npm -v<br>
+6.14.8<br>
+<br>
+• Installed PARTICLE CLI<br>
+• Installed Node-RED and run on http://localhost:1880<br>
+• Run node lesson 6 hello.js<br>
+Server running at http://127.0.0.1:8080/<br>
+Inspected the webpage. Less than 200ms loading time. Favicon.ico loads after.<br>
+• Run node http.js<br>
+No response<br>
+• Installed node.js, npm, Particle-CLI, and Atom on laptop<br>
+• Installed MATLAB on Android phone. Toggled on all of the sensors and moving around the phone, observes the data changes.<br>
 [2020-10-13] • Continue with the LED Matrix project.<br>
 There are 8x8 LED Matrix generator tools online, but it displays in reversed and 90 degrees clockwise rotate orientation on the LED Matrix due to they are other types of LED Matrix. For example, I drew the letter "N", and the code is 0x86,0xc6,0xc6,0xe6,0xf6,0xde,0xce,0xc6, # "N" . This is how it shows on the LED.<br>
 <br>
