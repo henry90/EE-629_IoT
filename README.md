@@ -34,6 +34,7 @@ Inspected the webpage. Less than 200ms loading time. Favicon.ico loads after.<br
 No response<br>
 • Installed node.js, npm, Particle-CLI, and Atom on laptop<br>
 • Installed MATLAB on Android phone. Toggled on all of the sensors and moving around the phone, observes the data changes.<br>
+:<br>
 [2020-10-13] • Continue with the LED Matrix project.<br>
 There are 8x8 LED Matrix generator tools online, but it displays in reversed and 90 degrees clockwise rotate orientation on the LED Matrix due to they are other types of LED Matrix. For example, I drew the letter "N", and the code is 0x86,0xc6,0xc6,0xe6,0xf6,0xde,0xce,0xc6, # "N" . This is how it shows on the LED.<br>
 <br>
