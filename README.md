@@ -1,5 +1,10 @@
 # EE-629_IoT
 Weekly Reports<br/>
+[2020-10-26] Logged in ThingSpeak using MathWorks account. Created cpu_loop channel.<br>
+Created rpidata project with Google Drive and Sheets API and credentials on Google Cloud Platform.<br>
+Installed gspread, oauth2client, and psutil on Raspberry Pi.<br>
+Runned and tested lab programs.<br>
+:
 [2020-10-19] 
 • Signed up an Particle account<br>
 • Installed Particle-Agent on Raspberry Pi and logged into the Particle account<br>
