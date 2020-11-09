@@ -5,16 +5,16 @@ Installed XQuartz on Mac for SSH -Y.<br>
 Ran Data Analysis Python demo codes.<br>
 • Thermometer<br>
 Components: Thermistor, ADC module, Jumper wires, and Resistors 10kΩ.<br>
-Enable I2C and Installed I2C tools:<br>
+- Enable I2C and Installed I2C tools:<br>
 sudo raspi-config<br>
-Choose “5 Interfacing Options” then “P5 I2C” then “Yes” and then “Finish” in this order and restart Raspberry Pi<br>
-Check whether the I2C module is started:<br>
+- Choose “5 Interfacing Options” then “P5 I2C” then “Yes” and then “Finish” in this order and restart Raspberry Pi<br>
+- Check whether the I2C module is started:<br>
 lsmod | grep i2c<br>
-Install I2C-Tools<br>
+- Install I2C-Tools:<br>
 sudo apt-get install i2c-tools<br>
-I2C device address detection:<br>
+- I2C device address detection:<br>
 i2cdetect -y 1<br>
-Ran the Python program, but it shows errors.<br>
+- Ran the Python program, but it shows errors.<br>
 ![](thermo_errors.png)<br>
 :<br>
 [2020-10-26] Logged in ThingSpeak using MathWorks account. Created cpu_loop channel.<br>
