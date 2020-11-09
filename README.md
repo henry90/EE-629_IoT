@@ -14,7 +14,7 @@ Install I2C-Tools<br>
 sudo apt-get install i2c-tools<br>
 I2C device address detection:<br>
 i2cdetect -y 1<br>
-Ran the Python program, but it shows errors.
+Ran the Python program, but it shows errors.<br>
 ![](thermo_errors.png)<br>
 :<br>
 [2020-10-26] Logged in ThingSpeak using MathWorks account. Created cpu_loop channel.<br>
