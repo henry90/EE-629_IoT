@@ -1,7 +1,7 @@
 # EE-629_IoT
 Weekly Reports<br/>
 [2020-11-09] Installed pyang, PlantUML, GIMP, Pinta and ran the demos on Raspberry Pi.<br>
-Updated to macOS Big Sur. Experiencing unsupported version. Working on it...<br>
+Updated to macOS Big Sur. Experiencing issues due to unsupported version. Working on it...<br>
 :<br>
 [2020-11-02] Installed Python packages which introduced at lession 8 on Mac and Raspberry Pi.<br>
 Installed XQuartz on Mac for SSH -Y.<br>
