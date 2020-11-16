@@ -1,5 +1,6 @@
 # EE-629_IoT
 Weekly Reports<br/>
+[2020-11-09] Installed pyang, PlantUML, GIMP, Pinta and ran the demos on Raspberry Pi.
 [2020-11-02] Installed Python packages which introduced at lession 8 on Mac and Raspberry Pi.<br>
 Installed XQuartz on Mac for SSH -Y.<br>
 Ran Data Analysis Python demo codes.<br>
