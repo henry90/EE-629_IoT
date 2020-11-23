@@ -1,5 +1,10 @@
 # EE-629_IoT
 Weekly Reports<br/>
+[2020-11-16] Compeleted Blockchain demos.<br>
+• Final Project: 4WD Raspberry Pi Robot.<br>
+Assembled the robot. Retuned the tracking module sensors and light seeking module sensors.<br>
+![](4wd-pi-robot.png)<br>
+:<br>
 [2020-11-09] Installed pyang, PlantUML, GIMP, Pinta and ran the demos on Raspberry Pi.<br>
 Updated to macOS Big Sur. Experiencing issues due to unsupported version. Working on it...<br>
 :<br>
