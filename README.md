@@ -1,5 +1,12 @@
 # EE-629_IoT
 Weekly Reports<br/>
+[2020-11-23] Change of Project: I2C LCD Display.<br>
+Display CPU temputure, and time.<br>
+![](I2C_LCD-tempTime.png)<br>
+Next: Weather.<br>
+Fixed error when run: 'sudo apt-get update && sudo apt-get upgrade'<br>
+![](Manually_add_missing_key)<br>
+:<br>
 [2020-11-16] Compeleted Blockchain demos.<br>
 • Final Project: 4WD Raspberry Pi Robot.<br>
 Assembled the robot. Retuned the tracking module sensors and light seeking module sensors.<br>
