@@ -4,6 +4,8 @@ Weekly Reports<br/>
 Display CPU temputure, and time.<br>
 ![](I2C_LCD-tempTime.png)<br>
 Next: Weather.<br>
+Fixed error when run: 'sudo apt-get update && sudo apt-get upgrade'<br>
+![](Manually_add_missing_key)<br>
 :<br>
 [2020-11-16] Compeleted Blockchain demos.<br>
 • Final Project: 4WD Raspberry Pi Robot.<br>
