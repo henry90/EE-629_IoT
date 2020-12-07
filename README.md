@@ -4,7 +4,7 @@ Weekly Reports<br/>
 ![](lcd_weather.gif)<br>
 :<br>
 [2020-11-23] Final Project: I2C LCD Display.<br>
-Rotating the grey knob as shown the in fig. 1 to adjusts the contrast of the LCD screen.<br>
+Rotating the grey knob as shown the in Fig. 1 to adjusts the contrast of the LCD screen.<br>
 ![](adjusting_lcd_contrast.png)<br>
 Fig. 1<br>
 Display CPU temputure and time.<br>
