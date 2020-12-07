@@ -9,6 +9,7 @@ Rotating the grey knob as shown below to adjusts the contrast of the LCD screen.
 Display CPU temputure and time.<br>
 ![](I2C_LCD-tempTime.png)<br>
 Fixed error when run: 'sudo apt-get update && sudo apt-get upgrade'<br>
+As shown below, I manually added the public key.
 ![](Manually_add_missing_key.png)<br>
 :<br>
 [2020-11-16] Compeleted Blockchain demos.<br>
