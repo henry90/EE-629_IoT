@@ -1,6 +1,6 @@
 # EE-629_IoT
 Weekly Reports<br/>
-[2020-11-30] Display weather on 1602LCD using I2C and observatory API.<br>
+[2020-11-30] Display weather on 1602 LCD using I2C and observatory API.<br>
 ![](lcd_weather.gif)<br>
 :<br>
 [2020-11-23] Final Project: I2C LCD Display.<br>
