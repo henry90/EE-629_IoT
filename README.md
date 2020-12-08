@@ -26,7 +26,11 @@ Ran Data Analysis Python demo codes.<br>
 • Thermometer<br>
 Components: Thermistor, ADC module, Jumper wires, and Resistors 10kΩ.<br>
  Enable I2C and Installed I2C tools:<br>
+ 
+``` 
 sudo raspi-config
+```
+
 <br>
  Choose “5 Interfacing Options” then “P5 I2C” then “Yes” and then “Finish” in this order and restart Raspberry Pi<br>
  Check whether the I2C module is started:<br>
