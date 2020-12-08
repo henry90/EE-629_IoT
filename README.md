@@ -29,7 +29,7 @@ sudo raspi-config
 <br>
  Choose “5 Interfacing Options” then “P5 I2C” then “Yes” and then “Finish” in this order and restart Raspberry Pi<br>
  Check whether the I2C module is started:<br>
-```
+```sh
 lsmod | grep i2c
 ```
 <br>
