@@ -6,18 +6,15 @@ Weekly Reports<br/>
 [2020-11-23] Final Project: I2C LCD Display.<br>
 Rotating the grey knob as shown below to adjusts the contrast of the LCD screen.<br>
 ![](adjusting_lcd_contrast.png)<br>
-Display CPU temputure and time.<br>
+Display CPU temperature and time.<br>
 ![](I2C_LCD-tempTime.png)<br>
-Fixed error when run: 'sudo apt-get update && sudo apt-get upgrade'<br>
-As shown below, I manually added the public key.
-![](Manually_add_missing_key.png)<br>
 :<br>
-[2020-11-16] Compeleted Blockchain demos.<br>
+[2020-11-16] Completed Blockchain demos.<br>
 • 4WD Raspberry Pi Robot.<br>
 Assembled the robot. Retuned the tracking module sensors and light seeking module sensors.<br>
 ![](4wd-pi-robot.png)<br>
 :<br>
-[2020-11-09] Installed pyang, PlantUML, GIMP, Pinta and ran the demos on Raspberry Pi.<br>
+[2020-11-09] Installed Pyang, PlantUML, GIMP, Pinta, and ran the demos on Raspberry Pi.<br>
 Updated to macOS Big Sur. Experiencing issues due to unsupported version. Working on it...<br>
 :<br>
 [2020-11-02] Installed Python packages which introduced at lession 8 on Mac and Raspberry Pi.<br>
@@ -26,16 +23,27 @@ Ran Data Analysis Python demo codes.<br>
 • Thermometer<br>
 Components: Thermistor, ADC module, Jumper wires, and Resistors 10kΩ.<br>
  Enable I2C and Installed I2C tools:<br>
+``` 
 sudo raspi-config
+```
 <br>
  Choose “5 Interfacing Options” then “P5 I2C” then “Yes” and then “Finish” in this order and restart Raspberry Pi<br>
  Check whether the I2C module is started:<br>
-lsmod | grep i2c<br>
- Install I2C-Tools:<br>
-sudo apt-get install i2c-tools<br>
- I2C device address detection:<br>
-i2cdetect -y 1<br>
- Ran the Python program, but it shows errors.<br>
+```
+lsmod | grep i2c
+```
+<br>
+Install I2C-Tools:<br>
+```
+sudo apt-get install i2c-tools
+```
+<br>
+I2C device address detection:<br>
+```
+i2cdetect -y 1
+```
+<br>
+Ran the Python program, but it shows errors.<br>
 ![](thermo_errors.png)<br>
 :<br>
 [2020-10-26] Logged in ThingSpeak using MathWorks account. Created cpu_loop channel.<br>
@@ -52,21 +60,47 @@ Ran and tested lab programs.<br>
 • Installed Particle iOS app and connected to Raspberry Pi<br>
 • Installed node.js and npm on Raspberry Pi<br>
 Step1: Update Pi<br>
-sudo apt-get update<br>
+```
+sudo apt-get update
+```
+<br>
 Step 2: Identify Architecture Version of Raspberry Pi 3 /3B+: ARMv7<br>
 Step 3: Copy the ARMv7 download link at NodeJS downloads page<br>
 Step 4: Go to terminal to download NodeJS Binaries<br>v
-Wget https://nodejs.org/dist/v12.19.0/node-v12.19.0-linux-armv7l.tar.xz <br>
+```
+Wget https://nodejs.org/dist/v12.19.0/node-v12.19.0-linux-armv7l.tar.xz 
+```
+<br>
 Step 5: Extract the downloaded file<br>
-tar -xf node-v12.19.0-linux-armv7l.tar.xz<br>
+```
+tar -xf node-v12.19.0-linux-armv7l.tar.xz
+```
+<br>
 Step 6: Copy the files to a directory in PATH<br>
-cd node-v12.19.0-linux-armv7l<br>
-sudo cp -R * /usr/local/<br>
+```
+cd node-v12.19.0-linux-armv7l
+```
+<br>
+```
+sudo cp -R * /usr/local/```
+<br>
 Step: 6: Check if installation was successful<br>
-pi@raspberrypi:~ $ node -v<br>
-v12.19.0<br>
-pi@raspberrypi:~ $ npm -v<br>
-6.14.8<br>
+```
+pi@raspberrypi:~ $ node -v
+```
+<br>
+```
+v12.19.0
+```
+<br>
+```
+pi@raspberrypi:~ $ npm -v
+```
+<br>
+```
+6.14.8
+```
+<br>
 <br>
 • Installed PARTICLE CLI<br>
 • Installed Node-RED and run on http://localhost:1880<br>
