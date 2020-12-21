@@ -23,22 +23,25 @@ Ran Data Analysis Python demo codes.<br>
 • Thermometer<br>
 Components: Thermistor, ADC module, Jumper wires, and Resistors 10kΩ.<br>
  Enable I2C and Installed I2C tools:<br>
-``` 
+```
 sudo raspi-config
 ```
 <br>
  Choose “5 Interfacing Options” then “P5 I2C” then “Yes” and then “Finish” in this order and restart Raspberry Pi<br>
  Check whether the I2C module is started:<br>
+
 ```
 lsmod | grep i2c
 ```
 <br>
 Install I2C-Tools:<br>
+
 ```
 sudo apt-get install i2c-tools
 ```
 <br>
 I2C device address detection:<br>
+
 ```
 i2cdetect -y 1
 ```
@@ -60,43 +63,53 @@ Ran and tested lab programs.<br>
 • Installed Particle iOS app and connected to Raspberry Pi<br>
 • Installed node.js and npm on Raspberry Pi<br>
 Step1: Update Pi<br>
+
 ```
 sudo apt-get update
 ```
 <br>
 Step 2: Identify Architecture Version of Raspberry Pi 3 /3B+: ARMv7<br>
 Step 3: Copy the ARMv7 download link at NodeJS downloads page<br>
-Step 4: Go to terminal to download NodeJS Binaries<br>v
+Step 4: Go to terminal to download NodeJS Binaries<br>
+
 ```
 Wget https://nodejs.org/dist/v12.19.0/node-v12.19.0-linux-armv7l.tar.xz 
 ```
 <br>
 Step 5: Extract the downloaded file<br>
+
 ```
 tar -xf node-v12.19.0-linux-armv7l.tar.xz
 ```
 <br>
 Step 6: Copy the files to a directory in PATH<br>
+
 ```
 cd node-v12.19.0-linux-armv7l
 ```
 <br>
+
 ```
-sudo cp -R * /usr/local/```
+sudo cp -R * /usr/local/
+```
 <br>
 Step: 6: Check if installation was successful<br>
+
 ```
 pi@raspberrypi:~ $ node -v
 ```
 <br>
+
 ```
 v12.19.0
 ```
 <br>
+
 ```
 pi@raspberrypi:~ $ npm -v
 ```
 <br>
+
 ```
 6.14.8
 ```
