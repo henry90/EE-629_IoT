@@ -98,23 +98,14 @@ Step: 6: Check if installation was successful<br>
 
 ```
 pi@raspberrypi:~ $ node -v
-```
-<br>
-
-```
 v12.19.0
 ```
 <br>
 
 ```
 pi@raspberrypi:~ $ npm -v
-```
-<br>
-
-```
 6.14.8
 ```
-<br>
 <br>
 • Installed PARTICLE CLI<br>
 • Installed Node-RED and run on http://localhost:1880<br>
