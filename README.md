@@ -3,7 +3,7 @@ Weekly Reports<br/>
 [2020-11-30] Display weather on 1602 LCD using I2C and observatory API.<br>
 ![](lcd_weather.gif)<br>
 :<br>
-[2020-11-23] Final Project: I2C LCD Display.<br>
+[2020-11-23] Final Project: Pi Weather Info.<br>
 Rotating the grey knob as shown below to adjusts the contrast of the LCD screen.<br>
 ![](adjusting_lcd_contrast.png)<br>
 Display CPU temperature and time.<br>
