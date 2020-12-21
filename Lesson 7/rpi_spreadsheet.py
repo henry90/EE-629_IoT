@@ -7,7 +7,7 @@ import psutil
 import subprocess
 from system_info import get_temperature
 from oauth2client.service_account import ServiceAccountCredentials
-GDOCS_OAUTH_JSON       = 'rpidata-294406-9955ceec82f3.json'
+GDOCS_OAUTH_JSON       = 'rpidata-***.json'
 GDOCS_SPREADSHEET_NAME = 'rpidata'
 FREQUENCY_SECONDS      = 10
 def login_open_sheet(oauth_key_file, spreadsheet):
