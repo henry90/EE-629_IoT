@@ -119,18 +119,17 @@ The correct code for letter "N": 0x00,0xFF,0x60,0x30,0x18,0x0C,0x06,0xFF, # "N".
 ![](2020-10-13/img/N.jpg)<br>
 #### [2020-10-07]
 LED Projects (Codes and instructions from Freenove):<br>
-① Blinking Red LED<br>
+### Blinking Red LED
 Hardware and electronic components:<br>
 * Raspberry Pi 3B
 * Breadboard
 * GPIO Extension Board
 * 220Ω Resister
 * Red LED
-* Jump Wires (M-M)
+* Jump Wires (M-M) <br>
 <br>
 ![](2020-10-07/img/Blinking_Red_LED.gif)<br>
-<br>
-② Display numbers and letters on LED Matrix display<br>
+### Display numbers and letters on LED Matrix display
 Hardware and electronic components:<br>
 * Raspberry Pi 3B
 * Breadboard
@@ -138,7 +137,8 @@ Hardware and electronic components:<br>
 * 8x8 LED Matrix
 * 220Ω Resisters
 * 74HC595 DIP IC
-* Jump Wires (M-M)
+* Jump Wires (M-M) <br>
+<br>
 ![](2020-10-07/img/LED_Matrix.gif)<br>
 #### [2020-09-29]
 * Purchased starter kit for Raspberry Pi including breadboard and all sort of electronic components
