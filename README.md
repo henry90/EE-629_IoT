@@ -25,7 +25,6 @@ Display realtime CPU temperature and time.<br>
 #### [2020-11-16]
 * Completed Blockchain demos<br>
 * 4WD Raspberry Pi Robot. (Orginal plan for the final project) - Assembled the robot. Retuned the tracking module sensors and light seeking module sensors<br>
-![](2020-11-16/img/4wd-pi-robot.png)<br>
 
 #### [2020-11-09]
 * Installed Pyang, PlantUML, GIMP, Pinta, and ran the demos on Raspberry Pi<br>
