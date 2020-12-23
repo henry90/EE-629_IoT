@@ -127,6 +127,7 @@ Hardware and electronic components:<br>
 * 220Ω Resister
 * Red LED
 * Jump Wires (M-M)
+<br>
 ![](2020-10-07/img/Blinking_Red_LED.gif)<br>
 <br>
 ② Display numbers and letters on LED Matrix display<br>
