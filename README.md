@@ -143,7 +143,7 @@ Hardware and electronic components:<br>
 * Reconfigured the Google Cloud due to billing issues
 #### [2020-09-22]
 * Installed VNC Viewer on Raspberry Pi and Mac
-* Login the Wi-Fi router to see the connected devices list. The list contains the IP address of each device
+* Login the Wi-Fi router to see the connected devices list. The list contains the IP address of each device which include Raspberry Pi
 * Successfully connected to Raspberry Pi using VNC Viewer and Secure Shell
 * Push the Red button to talk to Google Assistant, with audio and text feedback
 #### [2020-09-15]
