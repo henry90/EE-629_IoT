@@ -14,7 +14,7 @@ i2cdetect -y 1
 ```
 Refer to [2020-11-02] for configure I2C and install Smbus.
 ### Demo
-Display weather on 1602 LCD using I2C and observatory API.<br>
+Display weather information on 1602 LCD using I2C and observatory API.<br>
 ![](Final_Project/img/pi_weather.gif)<br>
 #### [2020-11-23]
 Rotating the grey knob as shown below to adjusts the contrast of the LCD screen.<br>
