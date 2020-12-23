@@ -1,5 +1,13 @@
-# EE-629_IoT
-Weekly Reports<br/>
+# EE 629 IoT Weekly Reports
+## Final Project: Pi Weather Information Screen.
+### Component List
+* Raspberry Pi (with 40 GPIO)
+* GPIO Extension Board & Ribbon Cable
+* Breadboard
+* Jumper Wires
+* I2C LCD1602 Module
+### Circuit Layout
+![]()
 [2020-11-30] Display weather on 1602 LCD using I2C and observatory API.<br>
 ![](lcd_weather.gif)<br>
 :<br>
