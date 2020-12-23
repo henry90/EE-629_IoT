@@ -97,16 +97,16 @@ v12.19.0
 pi@raspberrypi:~ $ npm -v
 6.14.8
 ```
-* Installed PARTICLE CLI<br>
-* Installed Node-RED and run on http://localhost:1880<br>
-* Run node lesson 6 hello.js<br>
-* Server running at http://127.0.0.1:8080/<br>
-* Inspected the webpage. Less than 200ms loading time. Favicon.ico loads after<br>
-* Run node http.js<br>
-* Installed node.js, npm, Particle-CLI, and Atom on laptop<br>
-* Installed MATLAB on Android phone. Toggled on all of the sensors and moving around the phone, observes the data changes<br>
+* Installed PARTICLE CLI
+* Installed Node-RED and run on http://localhost:1880
+* Run node lesson 6 hello.js
+* Server running at http://127.0.0.1:8080/
+* Inspected the webpage. Less than 200ms loading time. Favicon.ico loads after
+* Run node http.js
+* Installed node.js, npm, Particle-CLI, and Atom on laptop
+* Installed MATLAB on Android phone. Toggled on all of the sensors and moving around the phone, observes the data changes
 #### [2020-10-13] 
-Continue with the LED Matrix project<br>
+Continue with the LED Matrix project.<br>
 There are 8x8 LED Matrix generator tools online, but it displays in reversed and 90 degrees clockwise rotate orientation on the LED Matrix due to they are other types of LED Matrix. For example, I drew the letter "N", and the code is 0x86,0xc6,0xc6,0xe6,0xf6,0xde,0xce,0xc6, # "N" . This is how it shows on the LED.<br>
 <br>
 ![](2020-10-13/img/notN.jpg)<br>
@@ -115,46 +115,43 @@ The LED Matrix I am using is a Common Anode LED Matrix. There are 8 columns. Eac
 Diagram below from Freenove.<br>
 <br>
 ![](2020-10-13/img/LED_Matrix_Binary_Hex.png)<br>
-This is the correct code for letter "N": 0x00,0xFF,0x60,0x30,0x18,0x0C,0x06,0xFF, # "N".<br>
-<br>
+The correct code for letter "N": 0x00,0xFF,0x60,0x30,0x18,0x0C,0x06,0xFF, # "N".<br>
 ![](2020-10-13/img/N.jpg)<br>
 #### [2020-10-07]
 LED Projects (Codes and instructions from Freenove):<br>
 ① Blinking Red LED<br>
 Hardware and electronic components:<br>
-* Raspberry Pi 3B<br>
-* Breadboard<br>
-* GPIO Extension Board<br>
-* 220Ω Resister<br>
-* Red LED<br>
-* Jump Wires (M-M)<br>
-<br>
+* Raspberry Pi 3B
+* Breadboard
+* GPIO Extension Board
+* 220Ω Resister
+* Red LED
+* Jump Wires (M-M)
 ![](2020-10-07/img/Blinking_Red_LED.gif)<br>
 <br>
 ② Display numbers and letters on LED Matrix display<br>
 Hardware and electronic components:<br>
-* Raspberry Pi 3B<br>
-* Breadboard<br>
-* GPIO Extension Board<br>
-* 8x8 LED Matrix<br>
-* 220Ω Resisters<br>
-* 74HC595 DIP IC<br>
-* Jump Wires (M-M)<br>
-<br>
+* Raspberry Pi 3B
+* Breadboard
+* GPIO Extension Board
+* 8x8 LED Matrix
+* 220Ω Resisters
+* 74HC595 DIP IC
+* Jump Wires (M-M)
 ![](2020-10-07/img/LED_Matrix.gif)<br>
 #### [2020-09-29]
-* Purchased starter kit for Raspberry Pi including breadboard and all sort of electronic components<br>
-* Reconfigured the Google Cloud due to billing issues<br/>
+* Purchased starter kit for Raspberry Pi including breadboard and all sort of electronic components
+* Reconfigured the Google Cloud due to billing issues
 #### [2020-09-22]
-* Installed VNC Viewer on Raspberry Pi and Mac<br/>
-* Login the Wi-Fi router to see the connected devices list. The list contains the IP address of each device<br>
-* Successfully connected to Raspberry Pi using VNC Viewer and Secure Shell<br>
-* Push the Red button to talk to Google Assistant, with audio and text feedback<br>
+* Installed VNC Viewer on Raspberry Pi and Mac
+* Login the Wi-Fi router to see the connected devices list. The list contains the IP address of each device
+* Successfully connected to Raspberry Pi using VNC Viewer and Secure Shell
+* Push the Red button to talk to Google Assistant, with audio and text feedback
 #### [2020-09-15]
 * Reviwed the lecture and followed the instruction to configure the system settings
 * Modified the Digital Clock Setting: %a  %h %d  %I:%M %p. For example it will display: Tue Sep 15 10:00 AM
 * Connected Mac to the Raspberry Pi using Google Chrome extension: Secure Shell https://chrome.google.com/webstore/detail/secure-shell/iodihamcpbpeioajjeobimgagajmlibd
-* Got the crdiential from Google Cloud Speech APIs https://console.cloud.google.com/<br>
+* Got the crdiential from Google Cloud Speech APIs https://console.cloud.google.com/
 #### [2020-09-08]
 * Used Etcher https://www.balena.io/etcher/ to flash the Raspbian operating system onto the MicroSD card
-* Assembled Raspberry Pi 3B with the Google AIY: Voice Kit https://aiyprojects.withgoogle.com/voice/<br>
+* Assembled Raspberry Pi 3B with the Google AIY: Voice Kit https://aiyprojects.withgoogle.com/voice/
