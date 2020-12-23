@@ -19,7 +19,7 @@ Display weather information on 1602 LCD using I2C and observatory API.<br>
 ### [2020-11-23]
 Rotating the grey knob as shown below to adjusts the contrast of the LCD screen.<br>
 ![](2020-11-23/img/adjusting_lcd_contrast.png)<br>
-Display realtime CPU temperature and time.<br>
+Display real time CPU temperature and time.<br>
 ![](2020-11-23/img/I2C_LCD-tempTime.png)<br>
 
 ### [2020-11-16]
