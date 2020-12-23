@@ -127,7 +127,6 @@ Hardware and electronic components:<br>
 * 220Ω Resister
 * Red LED
 * Jump Wires (M-M) <br>
-<br>
 ![](2020-10-07/img/Blinking_Red_LED.gif)<br>
 ### Display numbers and letters on LED Matrix display
 Hardware and electronic components:<br>
@@ -138,7 +137,6 @@ Hardware and electronic components:<br>
 * 220Ω Resisters
 * 74HC595 DIP IC
 * Jump Wires (M-M) <br>
-<br>
 ![](2020-10-07/img/LED_Matrix.gif)<br>
 #### [2020-09-29]
 * Purchased starter kit for Raspberry Pi including breadboard and all sort of electronic components
